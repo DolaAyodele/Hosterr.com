@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(241, 216, 183);
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hire{
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 0;
+}
+.logo button a{
+    text-decoration: none;
+    font-size: 12px;
+    color: whitesmoke;
+    background-color: rgb(180, 67, 63);
+}
+.logo button{
+    background-color: rgb(180, 67, 63);
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sign-in ul{
+    display: flex;
+}
+.sign-in ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.sign-in ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sign-in ul li button{
+    background-color: rgb(180, 67, 63);
+}
